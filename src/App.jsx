@@ -1,4 +1,8 @@
+import React from 'react';
 
+import Navbar from "./components/navbar/navbar.jsx";
+import Footer from "./components/footer/footer.jsx";
+import Body from "./components/body/body.jsx";
 import './App.css'
 
 function App() {
@@ -6,7 +10,9 @@ function App() {
 
   return (
     <>
-      <h1>welcome </h1>
+      <Navbar/>
+      <Body/>
+      <Footer/>
     </>
   )
 }
