@@ -1,7 +1,9 @@
 .body{
-    width: 100%;
+    margin-left: 11px;
+    width: 1592px;
     height: 2347px;
-    top: 89px;
-    left: 11px;
+} 
 
+.main-content{
+    margin-left: 271px;
 }
