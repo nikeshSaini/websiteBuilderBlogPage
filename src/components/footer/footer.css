@@ -8,7 +8,7 @@
     background: #212731;
 }
 
-.left-part{
+.footer-left-part{
     height: 90%;
     margin: auto;
     display: flex;
@@ -18,7 +18,7 @@
     align-items: start;
 
 }
-.right-part{
+.footer-right-part{
     display: flex;
     height: 55%;
     width: 60%;
@@ -27,6 +27,7 @@
 }
 ul li{
     list-style: none;
+    color: #D1D6DA;
 
 }
 p{  margin: 0;
@@ -74,7 +75,6 @@ ul li:hover,select:hover{
     letter-spacing: 0em;
     text-align: left;
 }
-
 
 
 

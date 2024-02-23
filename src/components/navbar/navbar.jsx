@@ -1,11 +1,11 @@
 import React from 'react';
-import "./navbar.css"
-import MYSVG from "../Assets/svg"
+import "./navbar.css";
+import drop_icon from "../Assets/dropdown.svg";
 export default function Navbar(){
     return (
         <div className="navbar">
             <div className="searchBar">
-                <input type="text" name="" id="" placeholder={<MYSVG/>} />
+                <input type="text"  placeholder="icon" />
             </div>
             <div className="nav-item">
                 <ul>

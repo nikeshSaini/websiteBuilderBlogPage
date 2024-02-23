@@ -39,7 +39,7 @@ ul li{
     height: 100%;
 }
 
-.nav-item ul{
+.nav-item ul {
     display: flex;
     flex-direction:row ;
     font-family: Inter;
@@ -50,8 +50,9 @@ ul li{
     letter-spacing: 0em;
     text-align: left;
     color: #D1D6DA;
-
-
+}
+.nav-item ul li{
+    color: #D1D6DA;
 }
 .nav-item ul li:hover{
     text-decoration: underline;

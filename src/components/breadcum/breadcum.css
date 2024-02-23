@@ -1,0 +1,29 @@
+.breadcum-box {
+  display: flex;
+  align-items: center;
+  color: #727d87;
+}
+.breadcum-box p {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+
+  width: fit-content;
+  margin-right: 11px;
+  height: 20px;
+  color: #727d87;
+}
+.breadcum-box img {
+  margin-right: 11px;
+  height: 10px;
+  width: 8.25px;
+}
+
+.breadcum-box p:hover , .breadcum-box img:hover{
+    text-decoration: underline;
+    text-decoration-color: #1B88F4;
+    text-decoration-thickness:2px ;
+}

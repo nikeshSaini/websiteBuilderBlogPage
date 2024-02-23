@@ -2,8 +2,16 @@
     margin-left: 11px;
     width: 1592px;
     height: 2347px;
+    
 } 
 
 .main-content{
+    display: flex;
+    flex-direction: column;
     margin-left: 271px;
+    gap: 16px;
 }
+.space{
+    height: 38px;
+}
+
