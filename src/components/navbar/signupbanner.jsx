@@ -1,11 +1,18 @@
 import React from 'react';
 import ViewBtn from '../viewbtn/viewbtn';
+import "./signupbanner.css"
 
 export default function Singupbanner(){
     return (
-        <div className="signupbanner">
+        <div className="signupbanner1">
             <div className="sign-info">Sign up and get exclusive special deals</div>
-            <ViewBtn title="Sign up" width='292px'/>
+            <div className='signup'>
+                <input type="text" name="" id="" className="signupinput"  />
+                <div className="signUpbutton">
+                    <button>Sign Up</button>
+                </div>
+            </div>
+
         </div>
     );
 };

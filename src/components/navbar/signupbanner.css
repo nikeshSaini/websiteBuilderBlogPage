@@ -1,11 +1,45 @@
-.signupbanner{
+.signupbanner1{
     display: flex;
     flex-direction: row;
     height: 171px;
-    border: 1px solid black;
+    
     width: 1024px;
+    justify-content: space-between;
+    align-items: center;
+    
 }
 .sign-info{
     height: 88px;
     width: 400px;
+    font-size:32px;
+    color: #5c6874;
+    margin-left: 10px;
+}
+.signupinput{
+    width:348px;
+    border: none;
+    outline-color: #1B88F4;
+
+    height: 52px;
+    border-radius: 12px 0px 0px 12px;
+}
+.signup{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.signUpbutton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 52px;
+    width: 97px;
+    border-radius: 0px 12px 12px 0px;
+    background: #1B88F4;
+}
+.signUpbutton button{
+    background: transparent;
+    outline: none;
+    border: none;
+    color: #fff;
 }
