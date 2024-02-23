@@ -1,0 +1,30 @@
+.item-box{
+    padding: 35px 0px;
+    width: 333px;
+    height: 425px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    
+}
+
+.itempara , .itempara1{
+    width: 284px;
+    color: #626E79;
+
+}
+.discount{
+    width: 100%;
+    display: flex;
+    gap:4px;
+}
+.itempara1{
+    text-align: center;
+}
+.item-lower-part{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}

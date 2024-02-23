@@ -1,0 +1,11 @@
+.signupbanner{
+    display: flex;
+    flex-direction: row;
+    height: 171px;
+    border: 1px solid black;
+    width: 1024px;
+}
+.sign-info{
+    height: 88px;
+    width: 400px;
+}

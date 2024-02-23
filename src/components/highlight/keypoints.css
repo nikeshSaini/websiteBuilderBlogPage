@@ -1,0 +1,18 @@
+.keypoints-box {
+    margin-top: 18px;
+    display: flex;
+    gap: 8px;
+    flex-direction: column;
+    justify-content: center;
+    color: black;
+}
+.keypoints-box div{
+    display: flex;
+    line-height: 24px;
+}
+.keypoints-box div p{
+    color: #4B5665;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: Inter;
+}

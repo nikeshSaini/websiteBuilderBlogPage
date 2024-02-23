@@ -11,10 +11,12 @@ import ViewBtn from "../viewbtn/viewbtn";
 
 export default function Blogcontainer(props) {
   return (
-    <div className="blogcontainer-box">
-      <div className="left-part">
+    <div className="blogcontainer-box" style={{ height: props.height || '255px' }}>
 
+      <div className="blogcontainer-box-left-part">
+        
         <img className="builderimage" src={builder} />
+        <p>Builder1</p>
 
       </div>
 
@@ -22,8 +24,15 @@ export default function Blogcontainer(props) {
         <div className="middle1">
           <b>{props.content1Highlight}</b> {props.content1}
         </div>
-        <div className="middle2">Main Highlight</div>
-        <div className="middle3">{props.content2}</div>
+        <div className="middle2">
+          Main Highlight
+          <div className="highlight-point">
+            {props.highlight}
+            {props.keypoints}
+          </div>
+        </div>
+
+        <div className="middle3" style={{height:props.content2height || '72px'}}>{props.content2}</div>
         <div className="middle4">
           <p>Show more</p>
           <img src={dropdown} alt="" />
@@ -37,3 +46,4 @@ export default function Blogcontainer(props) {
     </div>
   );
 }
+

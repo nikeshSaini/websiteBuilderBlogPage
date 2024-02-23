@@ -13,6 +13,10 @@ import fourstar from "../Assets/star/fourstar.svg";
 import trophy from "../Assets/trophy.svg";
 import diamond from "../Assets/diamond.svg";
 import Blogcontainer from "../blogcontainer/blogcontainer.jsx";
+import Mainhighlight from "../highlight/mainhighlight.jsx";
+import Keypoints from "../highlight/keypoints.jsx";
+import Item from "../items/item.jsx";
+import Singupbanner from "../navbar/signupbanner.jsx";
 export default function Body() {
   return (
     <div className="body">
@@ -64,6 +68,29 @@ export default function Body() {
             remark="Very Good"
             star={fourstar}/>
         </div>
+
+        {/* highlight content  */}
+        <div className="contentbox">
+            
+          <Blogcontainer
+            className="blogcontainer1"
+            content1Highlight=" CDK Resposive Builder:  "
+            content1="An extensive library of widgets and apps, and detailed step-by-step guides"
+            rate="9.1"
+            remark="Very Good"
+            star={fourstar}
+            height = '436px'
+            highlight={<Mainhighlight/>}
+            keypoints ={<Keypoints/>}
+            content2height ='0'/>
+        </div>
+        <div className="bodyheader-title2">Related deals you might like for</div>
+        <div className="item-container">
+        <Item/>
+        <Item/>
+        <Item/>
+        </div>
+        <Singupbanner/>
       </div>
     </div>
   );

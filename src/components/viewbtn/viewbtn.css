@@ -3,9 +3,9 @@
     align-items: center;
     justify-content: center;
     background: #1B88F4;
-    width: 232px;
     height: 48px;
     border-radius: 12px;
+    margin-bottom: 18px;
 }
 
 .viewbtn-box button{
